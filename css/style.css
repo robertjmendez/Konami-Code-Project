@@ -86,6 +86,72 @@ h1 {
     left: 48.95%;
 }
 
+.screen-text {
+    position: absolute;
+    font-size: 20px;
+    top: 14%;
+    left: 27.5%;
+    width: 47.8%;
+    height: 29%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lives-added {
+    font-family: 'Press Start 2P', cursive;
+    font-size: .9em;
+    color: black;
+}
+
 .lit {
     background-color: red;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body.gradient-animate {
+    background: linear-gradient(269deg, #000022, #400000, #220040);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
+
+.off-button {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #800080;
+    background: -webkit-linear-gradient(top left, #800080, #ff0000);
+    background: -o-linear-gradient(top left, #800080, #ff0000);
+    background: -moz-linear-gradient(top left, #800080, #ff0000);
+    background: linear-gradient(to bottom right, #800080, #ff0000);
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.off-button:hover {
+    background: #800080;
+    border: none;
+    background: -webkit-linear-gradient(bottom right, #800080, #ff0000);
+    background: -o-linear-gradient(bottom right, #800080, #ff0000);
+    background: -moz-linear-gradient(bottom right, #800080, #ff0000);
+    background: linear-gradient(to top left, #800080, #ff0000);
+}
+
+
+

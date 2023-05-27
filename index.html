@@ -12,23 +12,9 @@
 </head>
 <body>
 
-<h1 class="text-center display-1 mt-3">Unlock Immortality!</h1>
+<h1 class="text-center display-1 mt-2 mb-3">Unlock Immortality!</h1>
 
-<!--<div class="image d-flex justify-content-center align-items-center mt-5">-->
-<!--    <img src="img/gameboy.png" alt="gameboy">-->
-<!--    <div id="up-button" class=" square-button"></div>-->
-<!--    <div id="left-button" class=" square-button"></div>-->
-<!--    <div id="down-button" class=" square-button"></div>-->
-<!--    <div id="right-button" class=" square-button"></div>-->
-<!--    <div id="b-button" class=" round-button"></div>-->
-<!--    <div id="a-button" class=" round-button"></div>-->
-<!--    <div id="enter-button" class=" oval-button"></div>-->
-<!--    <div class="screen text-center mt-5 lives-added"> Game Over</div>-->
-<!--    <div class="off-button"></div>-->
-
-<!--</div>-->
-
-<div class="gameboy-container mx-auto">
+<div class="gameboy-container mx-auto mb-2">
     <img src="img/gameboy.png" alt="gameboy">
     <div id="up-button" class="button square-button"></div>
     <div id="left-button" class="button square-button"></div>
@@ -37,8 +23,12 @@
     <div id="b-button" class="button round-button"></div>
     <div id="a-button" class="button round-button"></div>
     <div id="enter-button" class="button oval-button"></div>
+    <div id="screen-text" class="screen-text lives-added">Game Over</div>
 </div>
 
+<div class="button-container d-flex justify-content-center">
+<button class="off-button w-25">Reset Game</button>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"

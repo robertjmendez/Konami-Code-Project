@@ -18,7 +18,7 @@ $(function(){
         if (userEntry.join() === konamiCode.join()) {
             codeEntered = true;
             $('h1').text('Immortality Unlocked!');
-            $('.screen').text('You have added 30 lives!');
+            $('.screen-text').text('You have added 30 lives!');
             $('body').addClass('gradient-animate');
             $('.off-button').click(resetGame);
         }
@@ -28,7 +28,7 @@ $(function(){
         userEntry = [];
         codeEntered = false;
         $('h1').text('Unlock Immortality!');
-        $('.screen').text('Game Over');
+        $('.screen-text').text('Game Over');
         $('body').removeClass('gradient-animate');
         $('.button').removeClass('lit');
         $('.off-button').off('click');

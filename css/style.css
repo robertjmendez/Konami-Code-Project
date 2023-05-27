@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    font-size: 60px;
+    background: -webkit-linear-gradient(#8b0000, #FF4500, #FF1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gameboy-container {
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+}
+
+.gameboy-container img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    position: absolute;
+    opacity: 0.6;
+}
+
+.square-button {
+    width: 28px;
+    height: 32px;
+    border-radius: 21%;
+}
+
+.round-button {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.oval-button {
+    width: 41px;
+    height: 13px;
+    border-radius: 27%;
+    opacity: 0.7;
+    transform: rotate(153.3deg);
+}
+
+#up-button {
+    top: 59.6%;
+    left: 22%;
+}
+
+#left-button {
+    top: 64%;
+    left: 15.1%;
+    width: 29.5px;
+    height: 28px;
+}
+
+#right-button {
+    top: 64%;
+    left: 28.5%;
+    width: 29.5px;
+    height: 28px;
+}
+
+#down-button {
+    top: 68%;
+    left: 22%;
+}
+
+#a-button {
+    top: 59.8%;
+    left: 77.4%;
+}
+
+#b-button {
+    top: 64%;
+    left: 63.2%;
+}
+
+#enter-button {
+    top: 78.9%;
+    left: 48.95%;
+}
+
+.lit {
+    background-color: red;
+}
